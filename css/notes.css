@@ -1,0 +1,188 @@
+/* Кольори елементів
+кнопки #2196F3
+футер #2F303A
+"герой" #2F303A
+секція наша команда #757575
+*/
+
+
+/* ---------------------------ШРИФТИ (СТУДІЯ)------------------------- */
+
+/* ШРИФТИ
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+ */
+
+/* Кольори шрифтів 
+акцент #2196F3
+контакти #757575
+h2 #212121
+h3 #212121
+адрес #FFFFFF
+котакти футер rgba(255, 255, 255, 0.6)
+*/
+
+/* ЛОГОТИП
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+* identical to box height *
+letter-spacing: 0.03em;
+color: #000000;
+color: #2196F3;
+ */
+
+/* НАВІГАЦІЯ САЙТОМ
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+ */
+
+/* ТЕКСТ ГЕРОЙ
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+* or 136% *
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+ */
+
+/* КНОПКА ТЕКСТ
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+* identical to box height, or 188% *
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+*/
+
+/* КНОПКА ФОРМА
+ */
+
+/* ЕЛ ПОШТА ШАПКА
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+*/
+
+/* ТЕЛЕФОН ШАПКА
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+ */
+
+/* ОСОБЛИВОСТІ ЗАГОЛОВКИ
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+ */
+
+/* ОСОБЛИВОСТІ ОПИС
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+* or 171% *
+letter-spacing: 0.03em;
+color: #757575;
+*/
+
+/* ЧИМ МИ ЗАЙМАЄМОСЬ 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+*/
+
+/* ІМЯ ПРАЦІВНИКА ШРИФТ
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+* identical to box height *
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+ */
+
+/* ПОСАДА ПРАЦІВНИКА ШРИФТ
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+* identical to box height *
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+*/
+
+/* КОТАКТИ ФУТЕР
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+* or 171% *
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+*/
+
+/* WEBSTUDIO футер шрифт
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+* identical to box height *
+letter-spacing: 0.03em;
+color: #FFFFFF;
+color: #2196F3;
+ */
+
+/* АДРЕС ФУТЕР
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 24px;
+ * or 171% *
+ letter-spacing: 0.03em;
+ color: #FFFFFF;
+  */
+
+
