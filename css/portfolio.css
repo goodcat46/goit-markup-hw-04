@@ -69,9 +69,15 @@
 .portf-card {
   display: block;
   width: 370px;
-  border: 1px solid #EEEEEE;
 }
-.portf-card img {
+.portf-card .p-card-low-block {
+  border-right: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 /* .portf-card .p-card-brdr {
@@ -87,8 +93,7 @@
   letter-spacing: 0.06em;
 
   margin: 0px;
-  padding-left: 24px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .portf-card .p-card-text {
   color: var(--color-text-primary);
@@ -96,7 +101,6 @@
   line-height: 1.88;
 
   margin: 0px;
-  padding-left: 24px;
-  margin-bottom: 20px;
 }
+
 /* ------------------------ПІДВАЛ СТОРІНКИ portfolio */
