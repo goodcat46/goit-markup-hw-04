@@ -15,14 +15,25 @@
 /* ----------ГЕРОЙ */
 
 /* ФОН ГЕРОЙ */
-.hero {
-  background-color: #2F303A;
-  text-align: center;
+.section.hero {
+  background-color: #C4C4C4;
+  height: 600px;
+  max-width: 1600px;
 
+  background-image: 
+    linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/Img_hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-
+  margin-right: auto;
+  margin-left: auto;
 }
+
 /* ТЕКСТ ГЕРОЙ */
 .text-hero {
   font-weight: var(--tittle-wght-bol2);
@@ -35,7 +46,7 @@
 
   width: 600px;
 
-  margin: 0px auto 30px;
+  margin: 0px auto 28px;
 }
 
 /* ЗАМОВИТИ ПОСЛУГУ КНОПКА */
@@ -44,7 +55,6 @@
   font-weight: var(--tittle-wght-bold);
   font-size: 16px;
   line-height: 1.88;
-  /* text-align: center; */
   letter-spacing: 0.06em;
   color: #FFFFFF;
 
@@ -68,12 +78,39 @@
 }
 
 /* ----------ОСОБЛИВОСТІ */
-.spcls-container {
-  width: 270px;
-}
 .spcls-list>li:not(:last-child) {
   margin-right: 30px;
 }
+/* ІКОНКИ В ОСОБЛИВОСТЯХ */
+.spcls-item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #F5F4FA;
+  background-size: 70px 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+
+  margin-bottom: 30px;
+}
+.icon-antena::before {
+  background-image: url(../icons/icons-studio/icons-specials/antenna.svg);
+}
+.icon-clock::before {
+  background-image: url(../icons/icons-studio/icons-specials/clock.svg);
+}
+.icon-diagram::before {
+  background-image: url(../icons/icons-studio/icons-specials/diagram.svg);
+}
+.icon-astronaut::before {
+  background-image: url(../icons/icons-studio/icons-specials/astronaut.svg);
+}
+
+.spcls-container {
+  width: 270px;
+}
+
 .spcls-tittles {
   font-weight: var(--tittle-wght-bold);
   font-size: 14px;
@@ -106,12 +143,14 @@
   display: inline-block;
   background-color: #fff;
   
-
   width: 270px;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
 
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 
+    0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .wrkr-card img {
@@ -140,9 +179,67 @@
   color: var(--color-text-primary);
 
   margin: 0px;
+  padding-bottom: 16px;
+}
+/* СОЦІАЛЬНІ МЕРЕЖІ ПРАЦІВНИКІВ */
+
+.crd-socials-list {
+  display: flex;
+  align-items: center;
+
+  width: 206px;
+
+  column-gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 1px solid var(--testing-brdr-clr);
+}
+.crd-socials-link {
+  display: block;
+  content: "";
+  width: 44px;
+  height: 44px;
+  background-color: #F5F4FA;
+  background-size: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  cursor: pointer;
+
+  outline: 1px solid var(--testing-brdr-clr);
+
+}
+.icon-instagram {
+  background-image: url(../icons/icons-studio/icons-socials/instagram-1.svg);
+}
+.icon-instagram:hover,
+.icon-twitter:hover,
+.icon-facebook,
+.icon-linkedin {
+  background-color: var(--clr-btns-accent);
+  /* fill: #FFFFFF; */
 }
 
+/* ----------ПОСТІЙНІ КЛІЄНТИ */
+.partner-list {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
 
+  outline: 1px solid var(--testing-brdr-clr);
+}
+.partner-link {
+  display: block;
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.partner-link:hover {
+  border: 1px solid var(--clr-btns-hover);
+}
 
 
 /* ---------------------------ПІДВАЛ СТОРІНКИ */
