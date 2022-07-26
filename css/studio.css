@@ -152,7 +152,6 @@
 
 /* КАРТА ПРАЦІВНИКА */
 .wrkr-card {
-  display: inline-block;
   background-color: #fff;
   
   width: 270px;
@@ -218,7 +217,6 @@
   
   background-color: #ffffff;
   border-radius: 50%;
-  cursor: pointer;
 
   fill: var(--icons-clr-primary);
 
