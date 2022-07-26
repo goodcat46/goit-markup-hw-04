@@ -11,11 +11,11 @@
   --tittle-wght-bold: 700;
   --tittle-wght-bol2: 900;
   --font-fmly-logo: 'Raleway', sans-serif;
+  --icons-clr-primary: #AFB1B8;
 
   
   --testing-brdr-clr: tomato;
-  --testing-brdr-clr: transparent;
-  --testing-brdr-wght: 1px;
+  /* --testing-brdr-wght: 1px; */
 
 }
 
@@ -191,8 +191,11 @@ img {
 
 /* email */
 .contacts .mail {
-  display: block;
+  display: flex;
+  align-items: center;
+  
   color: var(--color-text-primary);
+  fill: var(--color-text-primary);
 
   padding-top: 32px;
   padding-bottom: 32px;
@@ -200,29 +203,49 @@ img {
 
 .contacts .mail:focus,
 .contacts .mail:hover {
-  color: var(--accent-clr-elmnts)
+  color: var(--accent-clr-elmnts);
+  fill: var(--accent-clr-elmnts);
 }
-
 .contacts .mail:active {
-  color: var(--accent-clr-elmnts)
+  color: var(--accent-clr-elmnts);
+  fill: var(--accent-clr-elmnts);
+}
+.mail svg {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
 }
 
 /* tel */
 .contacts .tel {
-  display: block;
+  display: flex;
+  align-items: center;
+
   color: var(--color-text-primary);
+  fill: var(--color-text-primary);
+  text-align: center;
 
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
 .contacts .tel:focus,
 .contacts .tel:hover {
-  color: var(--accent-clr-elmnts)
+  color: var(--accent-clr-elmnts);
+  fill: var(--accent-clr-elmnts);
+}
+.contacts .tel:active {
+  color: var(--accent-clr-elmnts);
+  fill: var(--accent-clr-elmnts);
+}
+.tel svg {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
 }
 
-.contacts .tel:active {
-  color: var(--accent-clr-elmnts)
+.test1 {
+  display: flex;
+  align-items: center;
 }
 
 
@@ -230,7 +253,10 @@ img {
 
 
 /* ---------------------------ПІДВАЛ СТОРІНКИ */
-
+.ftr-flex {
+  display: flex;
+  gap: 70px;
+}
 /* ЛОГОТИПЧИК ФУТЕР */
 .section-footer {
   padding-top: 60px;
@@ -294,4 +320,59 @@ img {
 }
 .contacts-ftr .tel-ftr:active {
   color: var(--accent-clr-elmnts)
+}
+
+/* СОЦІАЛЬНІ МЕРЕЖІ footer */
+.socials {
+  padding-top: 12px;
+}
+
+.socials-tittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.socials-list {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+
+  width: 206px;
+
+  outline: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
+}
+
+.socials-link {
+  display: block;
+  content: "";
+
+  width: 44px;
+  height: 44px;
+  fill: var(--icons-clr-primary);
+  background-color: rgba(255, 255, 255, 0.1);;
+  border-radius: 50%;
+  cursor: pointer;
+
+  padding: 12px;
+
+  outline: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
+}
+
+.socials-link:focus,
+.socials-link:hover {
+  background-color: var(--clr-btns-accent);
+  fill: #FFFFFF;
+}
+
+.socials-link svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+
+  outline: var(--testing-brdr-wght) solid var(--testing-brdr-clr);
 }
