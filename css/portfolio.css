@@ -72,6 +72,7 @@
   background: #FFFFFF;
 }
 .portf-card:focus,
+.partner-link:focus-within,
 .portf-card:hover {
   cursor: pointer;
   box-shadow:
@@ -90,11 +91,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* .portf-card .p-card-brdr {
-  border-left: 1px solid #EEEEEE;
-  border-bottom: 1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE;
-} */
+
 .portf-card .p-card-tittle {
   color: var(--tittle-clr-bold);
   font-weight: var(--tittle-wght-bold);
